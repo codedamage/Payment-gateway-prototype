@@ -1,0 +1,6 @@
+{
+    "require": {
+        "integrationmonitoring/moneta-php-sdk": "dev-master",
+		"moneta/webservice": "dev-master"
+    }
+}

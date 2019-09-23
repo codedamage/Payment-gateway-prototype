@@ -1,0 +1,92 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "de80653d58b0b5714cf6782e5c9ab04f",
+    "packages": [
+        {
+            "name": "integrationmonitoring/moneta-php-sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/integrationmonitoring/moneta-php-sdk.git",
+                "reference": "0d6702a020e9f4efb710b9a087eb8274a193424d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/integrationmonitoring/moneta-php-sdk/zipball/0d6702a020e9f4efb710b9a087eb8274a193424d",
+                "reference": "0d6702a020e9f4efb710b9a087eb8274a193424d",
+                "shasum": ""
+            },
+            "require": {
+                "moneta/webservice": "dev-master",
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Moneta": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2018-11-20T09:47:35+00:00"
+        },
+        {
+            "name": "moneta/webservice",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/solo-framework/Moneta.git",
+                "reference": "7543b064d05637420d85e9745ccacea975b09178"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/solo-framework/Moneta/zipball/7543b064d05637420d85e9745ccacea975b09178",
+                "reference": "7543b064d05637420d85e9745ccacea975b09178",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Moneta": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrey Filippov",
+                    "email": "afi@i-loto.ru"
+                }
+            ],
+            "description": "PHP library for access to MONETA.MerchantAPI (http://moneta.ru), psr-0 coding standard",
+            "keywords": [
+                "Merchant.API",
+                "Payment service",
+                "moneta.ru"
+            ],
+            "time": "2017-09-06T07:40:14+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "integrationmonitoring/moneta-php-sdk": 20,
+        "moneta/webservice": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
